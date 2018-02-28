@@ -1,16 +1,14 @@
 package classes;
 
-import java.util.ArrayList;
-
 public class Person {
 	private String name;
 	private double salary;
-	private ArrayList<String> funFacts = new ArrayList<>();
-
+	InterestingFacts facts;
+	
 	public Person() {
 		name = "Bob";
 		salary = 1000000;
-		funFacts.add("Cool Fact #1");
+		facts = new InterestingFacts();
 	}
 
 	public void moreMoney() {
@@ -19,11 +17,4 @@ public class Person {
 		}
 	}
 
-	public String aboutMe() {
-		String abt = "";
-		for (int i = 0; i < funFacts.size(); i++) {
-			abt += (i + 1) + ": " + funFacts.get(i) + "\n";
-		}
-		return abt;
-	}
 }
