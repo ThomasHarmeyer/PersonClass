@@ -3,7 +3,7 @@ package classes;
 public class Person {
 	private String name;
 	private double salary;
-	InterestingFacts facts;
+	private InterestingFacts facts;
 	
 	public Person() {
 		name = "Bob";
