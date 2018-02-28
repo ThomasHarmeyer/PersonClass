@@ -8,6 +8,9 @@ public class Projects {
 	//Constructors
 	public Projects() {
 		completedProjects = new ArrayList<String>();
+		completedProjects.add("FileIO");
+		completedProjects.add("PersonClass");
+		completedProjects.add("Other Project");
 	}
 	//Methods
 	public String projectSummary() {

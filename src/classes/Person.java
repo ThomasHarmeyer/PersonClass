@@ -17,4 +17,7 @@ public class Person{
 			salary += 1000;
 		}
 	}
+	public Projects getProjects() {
+		return projects;
+	}
 }
