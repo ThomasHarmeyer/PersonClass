@@ -16,5 +16,7 @@ public class Person {
 			salary += 1000;
 		}
 	}
-
+	public InterestingFacts getFacts() {
+		return facts;
+	}
 }
