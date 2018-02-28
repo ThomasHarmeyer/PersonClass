@@ -2,22 +2,14 @@ package classes;
 
 import java.util.ArrayList;
 
-public class Person{
+public class Projects {
 	//Fields
-	private String name;
-	private double salary;
 	ArrayList<String> completedProjects = new ArrayList<String>();
 	//Constructors
-	public void Person() {
-		this.name = "Bob";
-		this.salary = 1000000;
+	public Projects() {
+		completedProjects.add("PersonClass");
 	}
 	//Methods
-	public void moreMoney() {
-		if (salary + 1000 < Double.MAX_VALUE) {
-			salary += 1000;
-		}
-	}
 	public String projectSummary() {
 		String output = null;
 		if (!completedProjects.isEmpty()) {
