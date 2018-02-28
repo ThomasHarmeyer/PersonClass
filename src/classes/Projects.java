@@ -15,7 +15,7 @@ public class Projects {
 		if (!completedProjects.isEmpty()) {
 			output=completedProjects.get(0);
 		}
-		for (int x=1;x<completedProjects.size();) {
+		for (int x=1;x<completedProjects.size();x++) {
 			output=output+"\n"+completedProjects.get(x);
 		}
 		return output;
