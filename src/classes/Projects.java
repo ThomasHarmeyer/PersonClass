@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class Projects {
 	//Fields
-	ArrayList<String> completedProjects = new ArrayList<String>();
+	ArrayList<String> completedProjects;
 	//Constructors
 	public Projects() {
-		completedProjects.add("PersonClass");
+		completedProjects = new ArrayList<String>();
 	}
 	//Methods
 	public String projectSummary() {
