@@ -7,6 +7,7 @@ public class Person{
   private Projects projects;
 	private InterestingFacts facts;
 	private Address address;
+	private Occupation occupation;
   
 	//Constructors
 	public Person() {
@@ -15,6 +16,7 @@ public class Person{
 		facts = new InterestingFacts();
 		projects=new Projects();
 		address = new Address();
+		occupation = new Occupation();
     }
 	
 	//Methods
@@ -33,5 +35,8 @@ public class Person{
 	}
 	public Projects getProjects() {
 		return projects;
+	}
+	public Occupation getOccupation() {
+		return occupation;
 	}
 }

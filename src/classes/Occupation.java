@@ -6,13 +6,13 @@ public class Occupation {
 	private String jobTitle;
 	
 	
-	public Occupation(String companyName, String jobTitle) {
-		
+	
+	public Occupation() {
 		this.companyName = "Osterburg Industries";
 		this.jobTitle = "Brown Noser";
 	}
 
-	
+
 	public String nameTag() {
 	
 		String tag = companyName+"\n"+jobTitle;
