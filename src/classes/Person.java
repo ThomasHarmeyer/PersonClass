@@ -6,13 +6,15 @@ public class Person{
 	private double salary;
   private Projects projects;
 	private InterestingFacts facts;
+	private Address address;
   
 	//Constructors
 	public Person() {
 		name = "Bob";
 		salary = 1000000;
 		facts = new InterestingFacts();
-    projects=new Projects();
+		projects=new Projects();
+		address = new Address();
     }
 	
 	//Methods
@@ -25,6 +27,10 @@ public class Person{
 	public InterestingFacts getFacts() {
 		return facts;
   }
+	
+	public Address getAddress() {
+		return address;
+	}
 	public Projects getProjects() {
 		return projects;
 	}
