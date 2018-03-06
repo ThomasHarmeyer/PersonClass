@@ -7,6 +7,7 @@ public class Person{
   private Projects projects;
 	private InterestingFacts facts;
 	private Address address;
+	private Schedule schedule;
   
 	//Constructors
 	public Person() {
@@ -15,6 +16,7 @@ public class Person{
 		facts = new InterestingFacts();
 		projects=new Projects();
 		address = new Address();
+		schedule = new Schedule();
     }
 	
 	//Methods
@@ -33,5 +35,9 @@ public class Person{
 	}
 	public Projects getProjects() {
 		return projects;
+	}
+
+	public Schedule getSchedule() {
+		return schedule;
 	}
 }
