@@ -18,9 +18,9 @@ public class Schedule {
 		// Method implementation of mySchedule
 		public String mySchedule() {
 			//Declaring my return variable
-			String meetings = "";
+			String meetings = scheduledMeetings[0];
 			//Using for loop to fill my array
-			for (int count = 0; count < 5; count++) {
+			for (int count = 1; count < 5; count++) {
 				meetings = meetings + "\n" + scheduledMeetings[count];
 			}
 			//Returning my value
