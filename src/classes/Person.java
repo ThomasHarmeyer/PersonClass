@@ -4,7 +4,7 @@ public class Person{
 	//Fields
 	private String name;
 	private double salary;
-  private Projects projects;
+	private Projects projects;
 	private InterestingFacts facts;
 	private Address address;
 	private Occupation occupation;
