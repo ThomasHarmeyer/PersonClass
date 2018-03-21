@@ -4,7 +4,7 @@ public class PersonTestClass {
 	
 	public static void main(String[] args) {
 	Person bob = new Person();
-	for(int x=0;x<Double.MAX_VALUE;x++) {
+	for(int x=0;x<1000;x++) {
 		bob.moreMoney();
 	}
 	System.out.println("Mailing Label:");
